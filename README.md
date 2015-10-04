@@ -11,7 +11,10 @@ Later the license of RGraph was changed to CC-NC-BY and then to GPL.
 
 ## Changelog
 
-### 0.1.0 (2015-10-04)
+### 0.0.2 (2015-10-04)
+- (bluefox) add version output
+
+### 0.0.1 (2015-10-04)
 - (bluefox) initial checkin
 
 ## License

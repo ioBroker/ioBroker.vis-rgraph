@@ -1,3 +1,10 @@
+<!--
+    ioBroker.vis rgraph Widget-Set
+
+    version: "0.0.2"
+
+    Copyright 2013-2015 bluefox<dogafox@gmail.com>
+-->
 <script type="text/javascript" src="widgets/rgraph/js/RGraph.common.core.js"></script>
 <script type="text/javascript" src="widgets/rgraph/js/RGraph.common.effects.js"></script>
 <script type="text/javascript" src="widgets/rgraph/js/RGraph.common.dynamic.js"></script>
@@ -123,8 +130,16 @@
 
     //jQuery.extend(true, vis.binds, {
     vis.binds.rgraph = {
+	    version: "0.0.2",
+		showVersion: function () {
+			if (vis.binds.bars.version) {
+				console.log('Version vis-rgraph:' + vis.binds.rgraph.version);
+				vis.binds.bars.version = null;
+			}
+		},
         // Register callback in dashUI
         init: function  () {
+			vis.binds.rgraph.showVersion();
             if (!vis.binds.rgraph.regElements) {
                 vis.binds.rgraph.regElements = [];
                 vis.registerOnChange(vis.binds.rgraph.onchange, null);

@@ -1,7 +1,7 @@
 {
   "name": "iobroker.vis-rgraph",
   "description": "Gauge and charts Widgets by rgraph for ioBroker.vis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "bluefox",
     "email": "dogafox@gmail.com"
