@@ -1,0 +1,34 @@
+{
+    "common": {
+        "name":                     "vis-rgraph",
+        "version": "0.0.1",
+        "title":                    "ioBroker Visualisation - rgraph style Widgets",
+        "desc": {
+            "en":                   "High quality Widgets for ioBroker.vis",
+            "de":                   "High quality Widgets für ioBroker.vis",
+            "ru":                   "High quality Widgets для ioBroker.vis"
+        },
+        "platform":                 "Javascript/Node.js",
+        "loglevel":                 "info",
+        "icon":                     "rgraph.png",
+        "enabled":                  true,
+        "mode":                     "once",
+        "extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.vis-rgraph/master/admin/rgraph.png",
+        "keywords":                 ["rgraph", "vis", "GUI", "graphical", "scada"],
+        "readme":                   "https://github.com/ioBroker/ioBroker.vis-rgraph/blob/master/README.md",
+        "authors": [
+            "bluefox <dogafox@gmail.com>"
+        ],
+        "localLink":                "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "license":                  "MIT",
+        "dependencies":             ["vis"],
+        "onlyWWW":                  true,
+        "singleton":                true,
+        "type":                     "vis",
+		"restartAdapters":          ["vis"]
+    },
+    "native": {
+    },
+    "instanceObjects": [
+    ]
+}
