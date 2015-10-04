@@ -4,9 +4,9 @@
         "version": "0.0.1",
         "title":                    "ioBroker Visualisation - rgraph style Widgets",
         "desc": {
-            "en":                   "High quality Widgets for ioBroker.vis",
-            "de":                   "High quality Widgets für ioBroker.vis",
-            "ru":                   "High quality Widgets для ioBroker.vis"
+            "en":                   "Gauge and charts widgets for ioBroker.vis",
+            "de":                   "Messuhr und Chart widgets für ioBroker.vis",
+            "ru":                   "Индикатор и график-виджеты для ioBroker.vis"
         },
         "platform":                 "Javascript/Node.js",
         "loglevel":                 "info",
