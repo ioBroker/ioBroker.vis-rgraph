@@ -1,34 +1,42 @@
 {
     "common": {
-        "name":                     "vis-rgraph",
+        "name": "vis-rgraph",
         "version": "0.0.2",
-        "title":                    "ioBroker Visualisation - rgraph style Widgets",
+        "title": "ioBroker Visualisation - rgraph style Widgets",
         "desc": {
-            "en":                   "Gauge and charts widgets for ioBroker.vis",
-            "de":                   "Messuhr und Chart widgets für ioBroker.vis",
-            "ru":                   "Индикатор и график-виджеты для ioBroker.vis"
+            "en": "Gauge and charts widgets for ioBroker.vis",
+            "de": "Messuhr und Chart widgets für ioBroker.vis",
+            "ru": "Индикатор и график-виджеты для ioBroker.vis"
         },
-        "platform":                 "Javascript/Node.js",
-        "loglevel":                 "info",
-        "icon":                     "rgraph.png",
-        "enabled":                  true,
-        "mode":                     "once",
-        "extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.vis-rgraph/master/admin/rgraph.png",
-        "keywords":                 ["rgraph", "vis", "GUI", "graphical", "scada"],
-        "readme":                   "https://github.com/ioBroker/ioBroker.vis-rgraph/blob/master/README.md",
+        "platform": "Javascript/Node.js",
+        "loglevel": "info",
+        "icon": "rgraph.png",
+        "enabled": true,
+        "mode": "once",
+        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.vis-rgraph/master/admin/rgraph.png",
+        "keywords": [
+            "rgraph",
+            "vis",
+            "GUI",
+            "graphical",
+            "scada"
+        ],
+        "readme": "https://github.com/ioBroker/ioBroker.vis-rgraph/blob/master/README.md",
         "authors": [
             "bluefox <dogafox@gmail.com>"
         ],
-        "localLink":                "%web_protocol%://%ip%:%web_port%/vis/edit.html",
-        "license":                  "MIT",
-        "dependencies":             ["vis"],
-        "onlyWWW":                  true,
-        "singleton":                true,
-        "type":                     "vis",
-		"restartAdapters":          ["vis"]
+        "localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "license": "MIT",
+        "dependencies": [
+            "vis"
+        ],
+        "onlyWWW": true,
+        "singleton": true,
+        "type": "visualization-widgets",
+        "restartAdapters": [
+            "vis"
+        ]
     },
-    "native": {
-    },
-    "instanceObjects": [
-    ]
+    "native": {},
+    "instanceObjects": []
 }
