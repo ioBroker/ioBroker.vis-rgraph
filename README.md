@@ -10,7 +10,7 @@ Later the license of RGraph was changed to CC-NC-BY and then to GPL.
 ![Example](img/widgets.png)
 
 ## Changelog
-
+![Number of Installations](http://iobroker.live/badges/vis-rgraph-installed.svg) ![Number of Installations](http://iobroker.live/badges/vis-rgraph-stable.svg) 
 ### 0.0.2 (2015-10-04)
 - (bluefox) add version output
 
